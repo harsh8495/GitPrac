@@ -41,6 +41,7 @@ public class DefiendStep extends BaseClass
 	public void user_enters_the_in_the_password_textbox1(String password)
 	{
 		obj.enterPassword(password);
+		System.out.println("Hello");
 	}
 	@When("user clicks on Login button")
 	public void user_clicks_on_login_button() 
